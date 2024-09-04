@@ -1,9 +1,20 @@
 <script>
+import AboutComponent from '../components/AboutComponent.vue';
+import ProjectComponent from '../components/ProjectComponent.vue';
 
+export default {
+    name: 'AboutPage',
+
+    components: {
+        AboutComponent,
+        ProjectComponent
+    }
+}
 </script>
 
 <template>
-    <h1 class="text-light">sono aboutPage</h1>
+    <AboutComponent />
+    <ProjectComponent />
 </template>
 
-<style></style>
+<style lang="scss" scoped></style>

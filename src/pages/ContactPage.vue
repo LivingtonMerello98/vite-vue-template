@@ -1,9 +1,22 @@
 <script>
 
+import FindUs from '../components/FindUsComponent.vue';
+import FormComponent from '../components/FormComponent.vue';
+
+export default {
+    name: 'ContactPage',
+
+    components: {
+        FindUs,
+        FormComponent
+    }
+}
+
 </script>
 
 <template>
-    <h1 class="text-light">sono contactPage</h1>
+    <FormComponent />
+    <FindUs />
 </template>
 
-<style></style>
+<style lang="scss" scoped></style>
