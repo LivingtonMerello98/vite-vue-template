@@ -1,32 +1,43 @@
-Guida per Configurare il Progetto
+# Guida per Configurare il Progetto
+
 Benvenuti! Seguite questi semplici passaggi per configurare e avviare il progetto basato sul template. Questa guida è pensata per aiutarvi a iniziare facilmente.
 
-1. Creare una Nuova Repository
-Accedere al Template
+## 1. Creare una Nuova Repository
 
-Vai alla pagina del template su GitHub. [Link al template]
-Creare una Nuova Repository
+### Accedere al Template
 
-Clicca sul pulsante "Use this template".
-Inserisci un nome per la nuova repository.
-Clicca su "Create repository from template".
-2. Clonare la Nuova Repository
+Vai alla pagina del template su GitHub: [Link al template]
+
+### Creare una Nuova Repository
+
+1. Clicca sul pulsante **"Use this template"**.
+2. Inserisci un nome per la nuova repository.
+3. Clicca su **"Create repository from template"**.
+
+## 2. Clonare la Nuova Repository
+
 Ora che hai creato una nuova repository, devi clonarla sul tuo computer.
 
-Aprire VSCode
+### Aprire VSCode
 
-Selezionare la voce 'Clone Git Repository'
-Selezionare dove si vuole salvare la repository
-Aprire la vs code con il Progetto scaricato
+1. Apri Visual Studio Code.
+2. Seleziona la voce **'Clone Git Repository'**.
+3. Seleziona la cartella in cui vuoi salvare la repository.
+
+### Clonare la Repository
+
+Apri il terminale integrato di VSCode e esegui il comando:
+
+```bash
+git clone https://github.com/tuo-username/nome-repo.git
+Accedere alla Cartella del Progetto
+Spostati nella cartella del progetto:
 
 bash
 Copia codice
-git clone https://github.com/tuo-username/nome-repo.git
-Accedere alla Cartella del Progetto
-
-Spostati nella cartella del progetto:
-
-Eseguire il Comando di Installazione
+cd nome-repo
+Installare le Dipendenze
+Esegui il comando per installare tutte le dipendenze necessarie:
 
 bash
 Copia codice
@@ -37,7 +48,6 @@ Questo comando installerà tutto ciò di cui il progetto ha bisogno per funziona
 Ora sei pronto per vedere il progetto in azione!
 
 Avviare il Server
-
 Esegui il comando:
 
 bash
