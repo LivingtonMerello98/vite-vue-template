@@ -24,25 +24,18 @@ Ora che hai creato una nuova repository, devi clonarla sul tuo computer.
 2. Seleziona la voce **'Clone Git Repository'**.
 3. Seleziona la cartella in cui vuoi salvare la repository.
 
-### Clonare la Repository
+### Eseguire il comando di installazione
 
 Apri il terminale integrato di VSCode e esegui il comando:
 
-```bash
-git clone https://github.com/tuo-username/nome-repo.git
-Accedere alla Cartella del Progetto
-Spostati nella cartella del progetto:
-
-bash
-Copia codice
-cd nome-repo
-Installare le Dipendenze
 Esegui il comando per installare tutte le dipendenze necessarie:
 
-bash
 Copia codice
+
 npm install
+
 Questo comando installerà tutto ciò di cui il progetto ha bisogno per funzionare.
+
 
 3. Avviare il Server di Sviluppo
 Ora sei pronto per vedere il progetto in azione!
@@ -50,9 +43,8 @@ Ora sei pronto per vedere il progetto in azione!
 Avviare il Server
 Esegui il comando:
 
-bash
-Copia codice
 npm run dev
+
 Questo avvierà un server di sviluppo e il progetto sarà disponibile su http://localhost:5173. Apri questo URL nel tuo browser per vedere il progetto.
 
 Dipendenze del Progetto
