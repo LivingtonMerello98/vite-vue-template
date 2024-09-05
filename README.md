@@ -6,8 +6,7 @@ Benvenuti! Seguite questi semplici passaggi per configurare e avviare il progett
 
 ### Accedere al Template
 
-Vai alla pagina del template su GitHub: [Link al template]
-
+Vai alla pagina del template su GitHub: https://github.com/LivingtonMerello98/vue-template
 ### Creare una Nuova Repository
 
 1. Clicca sul pulsante **"Use this template"**.
